@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1D65"
+    android:orientation="vertical"
+    tools:context=".ForgotPasswordPensionPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/forgotpasswordpension_arrow"
+                android:layout_weight="0"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ic_baseline_arrow_back_24"/>
+
+            <ImageView
+                android:id="@+id/stanbicimage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/stabic"
+                android:layout_marginTop="325dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter registered email or phone number"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/et_email_phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pensionbackgroundforgotpassword_roundcolor"
+                android:textColorHint="@color/white"
+                android:paddingLeft="20dp"
+                android:hint="Email Address or Phone Number"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_nextbutton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:text="NEXT"
+                android:textColor="#3F51B5"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

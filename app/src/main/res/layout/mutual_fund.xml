@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/mutual_background"
+    tools:context=".MutualFund">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <View
+                android:id="@+id/viewbutton"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_baseline_navigate_before_24"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="15"/>
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_weight="1"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/stabic"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_emailaddress"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="16dp"
+                android:background="@drawable/createanewbank_background"
+                android:textColorHint="@color/white"
+                android:hint="Email Address"
+                android:textSize="12sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/et_lastdigit"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="16dp"
+                android:background="@drawable/createanewbank_background"
+               android:textColorHint="@color/white"
+                android:hint="LAST 4 DIGITS OF PHONE NUMBER"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:inputType="text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/createanewbank_background"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_password1"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="8"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+
+                <View
+                    android:id="@+id/eyemutual"
+                    android:layout_weight="1"
+                    android:layout_width="5dp"
+                    android:layout_height="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/ic_baseline_visibility_24"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/btn_save_internetbanking"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="Remember Email Address"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="10sp" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switch1"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_mutualbutton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/foreget_passcodelogin"
+                android:text="Login"
+                android:textColor="#0DA596"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/btn_forgotmutualbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Forget Password?"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:background="@drawable/mutuallastbox_backgroud"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_baseline_bolt_24"/>
+
+                <TextView
+                    android:id="@+id/btn_instantaccount"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="create an instant account"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="8sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

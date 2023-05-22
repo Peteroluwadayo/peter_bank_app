@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashBoardMyBankApp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:src="@drawable/stabic"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Privacy Consent"
+                android:textSize="14sp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data protection"
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. You consent to us collecting your Personal Information from you and and where lawful and reasonable,from public sources for credit,found and compliance purposes,as well as the purposes set out below."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. If you give us Personal Information about you or on behalf of another person (including,but mot limited to,account signatories,principal executive officers,trustees and beneficiaries),you confirm that you are authorised to:"
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (a)Give us the Personal Information."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (b)Consent o their behalf to the Processing of their Personal Information,specifically any cross-border transfer of Personal Information into and outside the country where the products or services are provided:and."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (c)Receive any privacy notices on their behalf."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (3)Your consent to us Processing your Personal Information:."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  .To provide products and services to you in terms of this agreement and any other products and services for which you may apply."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  .To carry out statistical and other analyses to identify potential markets and trends,evalute and improve our business(this includes improving existing and developing new products and services):"
+                android:textSize="10sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  .In countries outside the country where the products and services are provided.These countries may not have the same data protection laws as the country where the products or services are provided.Where we can,we will ask the receiving party to agree to our privacy policies"
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  .By sharing your Information with our third-party service providers,locally and outside the country where the products or services are provided.We ask people who provide services to us to agree to our privacy policies if they need access to any Personal Information to carry out their services:and"
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  .Within the Group."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  4. You will find our Processing practices in the Group's and our privacy statements.These statements are available on the Group's websites or on request."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  5.I you are unsure about your tax or legal position because your Personal Information is processed in countries other than where you live, you should get independentadvice."
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" I agree to the above Data Constent "
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marketing Consent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Permission to markrt products and services."
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="13sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As part of our service we would like to give you information about products and services offered by the Group, which we believe may benefit you.The Group means Standard Bank Group Limited.Its subsidiaries and their subsidiaries including Stanbic IBTC Bank PLc."
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Because your personal information is confidential, we need your consent to share it within the Group."
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please tick application for consent."
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I give my consent that you may:"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".Communicate other companies' products ,services and special other offers to me. If the respond positively to the communication, that company may contact me."
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Contact me for research purposes.(The research companies we use follow strict codes of conduct and treat customer information confidentially "
+                android:textSize="12sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".Market your product, services and special offers to me."
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".Share my personal information within the Group for marketing purposes and that the Group may then market its products, services and special offers to me"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insidebox_dashmybank">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SUBMIT"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:background="#990C21A8"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_skipButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SKIP"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:background="#99EC0619"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

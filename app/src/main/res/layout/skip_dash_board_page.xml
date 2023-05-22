@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03115A"
+    android:orientation="vertical"
+    tools:context=".SkipDashBoardPage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/ic_baseline_notifications_24">
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/boxround_yes">
+
+                    <LinearLayout
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="13dp"
+                        android:background="@drawable/ic_baseline_panorama_fish_eye_24">
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/skip_rounddashboard">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/lightblue_plogo">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/piloblue"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Hi Peter,"
+                        android:textSize="12sp"
+                        android:textColor="#990D06CF"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="30dp" />
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="10"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/innerskip_design">
+
+                        <TextView
+                            android:id="@+id/btn_show_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="13dp"
+                            android:text="SHOW ACCOUNT  V"
+                            android:textColor="#990D06CF"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:textSize="10sp"/>
+                    </LinearLayout>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/background_skipblue">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/btn_view_availableloan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LOAN"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View all available loans."
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"/>
+
+                </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/background_skippink">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CURRENT"
+                            android:textSize="12sp"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="HUNSA PETER OLUWADAYO"
+                            android:textSize="12sp"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="20dp"/>
+                            <View
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_weight="3"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0038760911"
+                                android:textSize="12sp"
+                                android:layout_marginRight="20dp"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="20dp" />
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/btn_xxxdollar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$XXX,XXX.xx"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@color/white"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="LEDGER BALANCE: $xx.xxx.xx"
+                                android:textSize="12sp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="20dp"/>
+                            <View
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_weight="3"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:orientation="horizontal"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/skipbackground_puppleshowbalance">
+
+                                <TextView
+                                    android:id="@+id/btn_show_balance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="20dp"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="13dp"
+                                    android:text="Show balance"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/skipblackbackgroundnairacolor">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CURRENT"
+                            android:textSize="12sp"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="HUNSA PETER OLUWADAYO"
+                                android:textSize="12sp"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="20dp"/>
+                            <View
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_weight="3"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0009060136"
+                                android:textSize="12sp"
+                                android:layout_marginRight="20dp"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="20dp" />
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/btn_xxx_naira"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="#XXX,XXX.xx"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@color/white"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="LEDGER BALANCE: $xx.xxx.xx"
+                                android:textSize="12sp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="20dp"/>
+                            <View
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_weight="3"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:orientation="horizontal"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/skipblackbackgroundnairacolor">
+
+                                <TextView
+                                    android:id="@+id/btn_show_naira_balance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="20dp"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="13dp"
+                                    android:text="Show balance"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_arrow"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="end"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/skipdashblackroundarrow_button">
+
+                    <LinearLayout
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="13dp"
+                        android:background="@drawable/ic_baseline_keyboard_arrow_right_24">
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="100dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_gravity="center"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_home_24"/>
+
+                        <TextView
+                            android:id="@+id/btn_home"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Home"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_weight="3"
+                        android:layout_height="30dp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_gravity="center"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_account_balance_24"/>
+
+                        <TextView
+                            android:id="@+id/btn_transfer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Transfer"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_weight="3"
+                        android:layout_height="30dp"/>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_gravity="center"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_video_label_24"/>
+
+                        <TextView
+                            android:id="@+id/btn_payment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="payment"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_weight="3"
+                        android:layout_height="30dp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_gravity="center"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_person_24"/>
+
+                        <TextView
+                            android:id="@+id/btn_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="profile"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_weight="3"
+                        android:layout_height="30dp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:textSize="14sp"
+                            android:text="..."/>
+
+                        <TextView
+                            android:id="@+id/btn_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="more"/>
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+           </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

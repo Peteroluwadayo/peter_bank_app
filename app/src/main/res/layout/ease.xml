@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ease_background"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Ease">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <View
+                    android:id="@+id/arrow"
+                    android:layout_weight="1"
+                    android:layout_width="20dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_baseline_arrow_back_24"/>
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="0dp"
+                    android:text="ease"
+                    android:paddingLeft="90dp"
+                    android:layout_weight="11"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/stabic"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to @ease, login to continue"
+                android:textSize="13sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email-Pin-Phone"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/white"
+                android:background="@drawable/pentionmi_round"/>
+
+
+
+                <EditText
+                    android:id="@+id/et_transaction"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="ENTER TRANSACTION PIN"
+                    android:textColorHint="@color/white"
+                    android:textSize="10sp"
+                    android:background="@drawable/pentionmi_round"
+                    android:paddingLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/white"
+                    android:text="Remember Email-RSA Pin-Phone"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signUpButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Login"
+                android:background="@drawable/logimi_round"
+                android:textColor="#0649BD"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/circle_question_mark">
+
+                    <View
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="10dp"
+                        android:layout_height="7dp"
+                        android:background="@drawable/ic_baseline_question_mark_24"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_weight="1.5"
+                    android:id="@+id/btn_forgotpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="Forget Password?"
+                    android:textStyle="bold"
+                    android:textSize="11sp"/>
+
+                <View
+                    android:layout_weight="8"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp" />
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_baseline_ac_unit_24"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/btn_unlink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="20dp"
+                    android:textStyle="bold"
+                    android:text="Unlink this device"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="end"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circular_layout"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="31dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="9dp"
+                        android:src="@drawable/stabic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="22dp"
+                android:orientation="horizontal"
+                android:background="@drawable/color_box"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_baseline_bolt_24"/>
+
+                <TextView
+                    android:id="@+id/btn_instantaccount"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="create an @ease account"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

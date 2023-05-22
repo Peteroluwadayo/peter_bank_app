@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/more_recorderbackground"
+    android:layout_height="match_parent"
+    tools:context=".MorePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    //    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+            <View
+                android:layout_width="20dp"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="20dp"
+                android:layout_height="20dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_keyboard_arrow_down_24"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_weight="1"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REORDER"
+                android:textSize="13sp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#122BB8"/>
+            </LinearLayout>
+    //  </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/moreroundbackground">
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/ic_baseline_format_quote_24">
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3S Banking"
+                android:textSize="13sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

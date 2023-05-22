@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/createanewbank_account"
+    android:orientation="vertical"
+    tools:context=".CreateEaseAccount">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/ic_baseline_west_24"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/ease_image"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="200dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/stabic"
+                android:layout_marginLeft="20dp"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create ease account"
+                android:layout_marginLeft="20sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please provide appropriate details to create your @ease account"
+                android:layout_marginLeft="20sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/createesae_account"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_first_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="FIRST NAME"
+                        android:textSize="9sp"
+                        android:paddingLeft="20dp"
+                        android:inputType="text"
+                        android:textColorHint="@color/white"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/createesae_account"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_lastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="LAST NAME"
+                        android:paddingLeft="20dp"
+                        android:textSize="9sp"
+                        android:inputType="text"
+                        android:textColorHint="@color/white"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="PHONE NUMBER"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:textSize="9sp"
+                android:inputType="number"
+                android:background="@drawable/createesae_account"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/white"/>
+
+            <EditText
+                android:id="@+id/et_full_address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="FULL ADDRESS"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:textSize="9sp"
+                android:inputType="text"
+                android:background="@drawable/createesae_account"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:id="@+id/btn_login"
+                android:layout_height="50dp"
+                android:text="CONTINUE"
+                android:layout_marginTop="30dp"
+                android:textColor="#1D65DF"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
